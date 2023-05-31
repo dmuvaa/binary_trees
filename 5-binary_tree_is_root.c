@@ -10,15 +10,15 @@ int binary_tree_is_root(const binary_tree_t *node)
 {
 	if (node == NULL)
 	{
-		return (NULL);
+		return (0);
 	}
 
-	if (node->left = NULL)
+	if (node->left == NULL)
 	{
 		return (0);
 	}
 	
-	if (node->right = NULL)
+	if (node->right == NULL)
 	{
 		return (0);
 	}
