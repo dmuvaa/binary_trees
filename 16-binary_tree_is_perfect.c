@@ -22,6 +22,7 @@ int calculate_depth(const binary_tree_t *node)
  * is_perfect - check if nodes have 2 childs
  * @tree: pointer to root node
  * @depth: depth of leafmost leaf
+ * @level: check node level
  *
  * Return: 1 if BT is perfect, otherwise 0
  */
